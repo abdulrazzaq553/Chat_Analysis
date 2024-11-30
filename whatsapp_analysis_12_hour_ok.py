@@ -1,9 +1,9 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-import pandas as pd
+import pa as pd
 import emoji
-import seaborn as sns
+import sean as sns
 import link
 import link2nd
 import zipfile

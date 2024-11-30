@@ -1,9 +1,9 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-import pa as pd
+import pandas as pd
 import emoji
-import sean as sns
+import seaborn as sns
 import link
 import link2nd
 import zipfile
@@ -201,7 +201,7 @@ if file is not None:
 
         st.subheader('📋 Full Data')
         check=link2nd.search(select_user,k1)
-        st.dataframe(check)
+        st.datafre(check)
         
 st.sidebar.markdown("<hr style='border: 2px solid #4A90E2; margin: 10px 0;'>", unsafe_allow_html=True)
 
